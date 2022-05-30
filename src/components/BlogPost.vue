@@ -24,13 +24,13 @@
 </template>
 
 <script>
-//import VueDisqus from 'vue-disqus/VueDisqus'
+// import VueDisqus from 'vue-disqus/VueDisqus'
 import { kebabify, prettyDate } from '../helpers'
 
 export default {
   name: 'blog-post',
   resource: 'BlogPost',
-  components: { VueDisqus },
+  // components: { VueDisqus },
   props: { post: String },
 
   data() {
